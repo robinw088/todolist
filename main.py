@@ -41,7 +41,7 @@ class Lists(db.Model):
     things = db.Column(db.String, nullable=False)
     date = db.Column(db.Date, nullable=True)
 
-# db.create_all()
+db.create_all()
 
 class Register(FlaskForm):
     name = StringField('Name', validators=[DataRequired()])
