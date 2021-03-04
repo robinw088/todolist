@@ -1,0 +1,26 @@
+.list-group-item {
+border:None;}
+
+.welcome {color:white;
+padding:7px 16px 0 0;
+}
+
+.register {
+padding:0 1rem}
+
+
+.userinput{
+font-size:30px;
+padding-left:0;
+padding-right:0
+}
+
+.col-lg-8{
+padding-right:0}
+
+.duedate{
+text-align: center;
+vertical-align: center;}
+
+#duedate{
+margin-top:0.5rem}

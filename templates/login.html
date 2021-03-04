@@ -1,0 +1,17 @@
+{% include 'header.html' %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+<div class="register">
+<h2>Login to retrieve your saved to to list</h2>
+ {% with messages = get_flashed_messages() %}
+            {% if messages %}
+            <ul class=flashes>
+                {% for message in messages %}
+                <p style="color:red">{{ message }}</p>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% endwith %}
+{{ wtf.quick_form(form, extra_classes="register") }}
+
+</div>
